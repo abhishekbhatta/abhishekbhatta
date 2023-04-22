@@ -1,10 +1,42 @@
-#title {
-      color: blue;
-}
-.green {
-      color: green;
+/* Reset default styles */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-    color: red;
+.profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.profile-bio {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  list-style-type: none;
+}
+
+.profile-details li {
+  margin-bottom: 5px;
+}
+
+.profile-details li strong {
+  font-weight: bold;
 }
