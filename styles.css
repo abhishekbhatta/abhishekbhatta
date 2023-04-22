@@ -1,49 +1,52 @@
-/* Set styles for the body */
+/* CSS for profile.html */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 20px;
-  padding: 30px;
-  background-color: rgb(5, 87, 90);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Set styles for the header */
 header {
-  background-color: #333;
-  color: blue;
-  padding: 10px;
-  text-align: center;
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
 }
 
-/* Set styles for the main section */
-main {
-  margin: 20px;
+.profile-section {
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* Set styles for the subsections */
-section {
-  margin-bottom: 20px;
+.profile-section img {
+    width: 200px;
+    border-radius: 50%;
 }
 
-/* Set styles for the headings */
-h1, h2 {
-  font-weight: normal;
+.profile-info {
+    margin-top: 10px;
 }
 
-/* Set styles for the unordered list */
-ul {
-  list-style: none;
-  margin: 20px;
-  padding: 30px;
+.skills-section {
+    margin-top: 30px;
 }
 
-/* Set styles for the list items */
-li {
-  display: inline-block;
-  margin-right: 10px;
-  padding: 5px 10px;
-  background-color: #333;
-  color: green;
-  border-radius: 5px;
+.skills-section h2 {
+    margin-bottom: 10px;
+}
+
+.about-section {
+    margin-top: 30px;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
