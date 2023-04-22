@@ -1,42 +1,48 @@
-/* Reset default styles */
-body, h1, p, ul, li {
+/* Set styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
 
-.profile {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f5f5f5;
+/* Set styles for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-.profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Set styles for the main section */
+main {
+  margin: 20px;
 }
 
-.profile-name {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.profile-bio {
-  font-size: 18px;
-  color: #777;
+/* Set styles for the subsections */
+section {
   margin-bottom: 20px;
 }
 
-.profile-details {
-  list-style-type: none;
+/* Set styles for the headings */
+h1, h2 {
+  font-weight: normal;
 }
 
-.profile-details li {
-  margin-bottom: 5px;
+/* Set styles for the unordered list */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.profile-details li strong {
-  font-weight: bold;
+/* Set styles for the list items */
+li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
 }
